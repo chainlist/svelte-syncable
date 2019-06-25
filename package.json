@@ -7,5 +7,16 @@
   "license": "MIT",
   "peerDependencies": {
     "svelte": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "jest-localstorage-mock": "^2.4.0",
+    "jest-transform-svelte": "^2.0.2"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
