@@ -18,5 +18,8 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "svelte": "^3.6.0"
   }
 }
