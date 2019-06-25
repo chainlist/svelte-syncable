@@ -1,6 +1,6 @@
 {
   "name": "svelte-syncable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Syncable store for SvelteJS",
   "main": "index.js",
   "author": "Kevin Guillouard <kevin.guillouard@gmail.com>",
