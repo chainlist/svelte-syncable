@@ -4,7 +4,10 @@ let prefix = 'svelteStore';
 
 const get = (key) => {
   if (typeof window === undefined || !localStorage) return undefined;
-  return JSON.parse(localStorage.getItem(key) | '""');
+  const value = localStorage.getItem(key);
+  return value === undefined
+    ? ""
+    : JSON.parse(value);
 };
 
 const set = (key, value) => {
