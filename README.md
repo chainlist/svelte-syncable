@@ -1,4 +1,4 @@
-# Svelte Store Storage plugin
+# Svelte Store Storage plugin [![Build Status](https://travis-ci.com/chainlist/svelte-syncable.svg?branch=master)](https://travis-ci.com/chainlist/svelte-syncable)
 
 ## Install
 
