@@ -18,7 +18,7 @@ Create your syncable store value
 // store.js
 import { syncable, setPrefix } from 'svelte-syncable';
 
-// All the syncable value will be store as "foorbar-{name}"
+// All the syncable value will be stored as "foorbar-{name}"
 setPrefix('foobar');
 
 export const answer = syncable('answer', 42);
@@ -27,7 +27,7 @@ export const todos = syncable('todos', [
 ]);
 ```
 
-Use your store value as every other svelte store value
+Use your store value as every other svelte store observables
 ```html
 // Component.svelte
 <script>
