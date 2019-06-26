@@ -1,10 +1,17 @@
 {
   "name": "svelte-syncable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Syncable store for SvelteJS",
   "main": "index.js",
   "author": "Kevin Guillouard <kevin.guillouard@gmail.com>",
-  "keywords": ["svelte", "localStorage", "syncable", "sync", "store", "svelte-store"],
+  "keywords": [
+    "svelte",
+    "localStorage",
+    "syncable",
+    "sync",
+    "store",
+    "svelte-store"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "svelte": "^3.0.0"
