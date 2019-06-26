@@ -4,6 +4,7 @@
   "description": "Syncable store for SvelteJS",
   "main": "index.js",
   "author": "Kevin Guillouard <kevin.guillouard@gmail.com>",
+  "keywords": ["svelte", "localStorage", "syncable", "sync", "store", "svelte-store"],
   "license": "MIT",
   "peerDependencies": {
     "svelte": "^3.0.0"
