@@ -2715,9 +2715,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.11:
-  version "4.17.11"
-  resolved "http://artifactory.internal.smartadserver.com:8081/artifactory/api/npm/npm/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -3906,6 +3906,11 @@ svelte@^3.1.0:
   version "3.5.4"
   resolved "http://artifactory.internal.smartadserver.com:8081/artifactory/api/npm/npm/svelte/-/svelte-3.5.4.tgz#000574e7f05ca84acea3d8dc9ec91b5491ca6b2c"
   integrity sha1-AAV05/BcqErOo9jcnskbVJHKayw=
+
+svelte@^3.6.0:
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.12.1.tgz#ddfacd43272ac3255907c682b74ee7d3d8b06b0c"
+  integrity sha512-t29WJNjHIqfrdMcVXqIyRfgLEaNz7MihKXTpb8qHlbzvf0WyOOIhIlwIGvl6ahJ9+9CLJwz0sjhFNAmPgo8BHg==
 
 symbol-tree@^3.2.2:
   version "3.2.4"
