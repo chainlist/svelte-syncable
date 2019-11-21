@@ -3,7 +3,7 @@ import { writable } from 'svelte/store';
 let prefix = 'svelteStore';
 
 const get = (key) => {
-  if (typeof window === undefined || !localStorage) return undefined;
+  if (typeof window === 'undefined' || !window.localStorage) return;
   const value = localStorage.getItem(key);
   return value === undefined
     ? ""
@@ -11,7 +11,7 @@ const get = (key) => {
 };
 
 const set = (key, value) => {
-  if (typeof window === undefined || !localStorage) return;
+  if (typeof window === 'undefined' || !window.localStorage) return;
 
   localStorage.setItem(key, JSON.stringify(value));
 };
